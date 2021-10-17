@@ -1,0 +1,12 @@
+<p>Title is {{title}}</p>
+<p [style.color]='titleColor'>{{title}}</p>
+<button (click)='setTitle()'>Set title</button>
+<mat-form-field>
+    <input matInput placeholder="Add Note" >
+</mat-form-field>
+<button mat-icon-button> 
+    <mat-icon>add</mat-icon>
+</button>
+<p>Homework here</p>
+<p [style.background-color]='TitleBackgroundColor'>{{title}}</p>
+<button (click)='setbackground()'>Set background</button>
